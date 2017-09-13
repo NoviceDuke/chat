@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title></title>
-    <link rel="stylesheet" href="{{assert('css/app.css')}}" />
+    <link rel="stylesheet" href="{{asset('css/app.css')}}" />
   </head>
   <body>
     <div class="container">
       <div  class="row" id="app">
-          <h1>Chat Room</h1>
-            <ul class="list-group">
+
+            <ul class="list-group offset-4 col-4 ">
               <li class="list-group-item active">Chat room</li>
               <li class="list-group-item">Dapibus ac facilisis in</li>
               <li class="list-group-item">Morbi leo risus</li>
@@ -19,7 +19,7 @@
             </ul>
       </div>
     </div>
-  <script src="{{assert('js/app.js')}}"></script>
+  <script src="{{asset('js/app.js')}}"></script>
   </body>
 
 </html>

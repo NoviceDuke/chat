@@ -354,7 +354,7 @@ html {
 
 body {
   font-family: "Raleway", sans-serif;
-  font-size: 14rem;
+  font-size: 0.875rem;
   font-weight: normal;
   line-height: 1.6;
   color: #292b2c;
@@ -676,7 +676,7 @@ mark,
 .blockquote {
   padding: 0.5rem 1rem;
   margin-bottom: 1rem;
-  font-size: 17.5rem;
+  font-size: 1.09375rem;
   border-left: 0.25rem solid #eceeef;
 }
 
@@ -2729,7 +2729,7 @@ pre code {
   display: block;
   width: 100%;
   padding: 0.5rem 0.75rem;
-  font-size: 14rem;
+  font-size: 0.875rem;
   line-height: 1.25;
   color: #464a4c;
   background-color: #fff;
@@ -2781,7 +2781,7 @@ pre code {
 }
 
 select.form-control:not([size]):not([multiple]) {
-  height: calc(18.5rem + 2px);
+  height: calc(2.09375rem + 2px);
 }
 
 select.form-control:focus::-ms-value {
@@ -2816,7 +2816,7 @@ select.form-control:focus::-ms-value {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   margin-bottom: 0;
-  font-size: 14rem;
+  font-size: 0.875rem;
 }
 
 .form-control-static {
@@ -2929,8 +2929,8 @@ select.form-control-lg:not([size]):not([multiple]),
 .form-control-danger {
   padding-right: 2.25rem;
   background-repeat: no-repeat;
-  background-position: center right 4.625rem;
-  background-size: 9.25rem 9.25rem;
+  background-position: center right 0.5234375rem;
+  background-size: 1.046875rem 1.046875rem;
 }
 
 .has-success .form-control-feedback,
@@ -3130,7 +3130,7 @@ select.form-control-lg:not([size]):not([multiple]),
           user-select: none;
   border: 1px solid transparent;
   padding: 0.5rem 1rem;
-  font-size: 14rem;
+  font-size: 0.875rem;
   border-radius: 0.25rem;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -3698,7 +3698,7 @@ tbody.collapse.show {
   min-width: 10rem;
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
-  font-size: 14rem;
+  font-size: 0.875rem;
   color: #292b2c;
   text-align: left;
   list-style: none;
@@ -4031,7 +4031,7 @@ tbody.collapse.show {
 .input-group-addon {
   padding: 0.5rem 0.75rem;
   margin-bottom: 0;
-  font-size: 14rem;
+  font-size: 0.875rem;
   font-weight: normal;
   line-height: 1.25;
   color: #464a4c;
@@ -4237,7 +4237,7 @@ tbody.collapse.show {
 .custom-select {
   display: inline-block;
   max-width: 100%;
-  height: calc(18.5rem + 2px);
+  height: calc(2.09375rem + 2px);
   padding: 0.375rem 1.75rem 0.375rem 0.75rem;
   line-height: 1.25;
   color: #464a4c;
@@ -5890,7 +5890,7 @@ button.list-group-item-danger.active {
 
 .close {
   float: right;
-  font-size: 21rem;
+  font-size: 1.3125rem;
   font-weight: bold;
   line-height: 1;
   color: #000;
@@ -6324,7 +6324,7 @@ button.close {
 .popover-title {
   padding: 8px 14px;
   margin-bottom: 0;
-  font-size: 14rem;
+  font-size: 0.875rem;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
   border-top-right-radius: calc(0.3rem - 1px);
