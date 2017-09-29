@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Hello Laravel by Docker 
                 </div>
 
                 <div class="links">
